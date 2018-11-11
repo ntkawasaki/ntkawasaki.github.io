@@ -1,17 +1,265 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Noah Kawasaki</title>
+
+  <!--- basic page needs
+    ================================================== -->
+  <meta charset="utf-8">
+  <title>Transcend</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- mobile specific metas
+    ================================================== -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+
+  <!-- CSS
+    ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- script
+    ================================================== -->
+  <script src="js/modernizr.js"></script>
+  <script src="js/pace.min.js"></script>
+
+  <!-- favicons
+    ================================================== -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 
-<body>
-  <h1 class="a name=" id="" class=" btn btn-primary" href="#" role="button">Hello world</h1>
+<body id="top">
+
+  <!-- home
+    ================================================== -->
+  <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg"
+    data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+
+    <div class="shadow-overlay"></div>
+
+    <div class="home-content">
+
+      <div class="row home-content__main">
+        <h1>
+          My name is Noah Kawasaki,
+        </h1>
+        <p>
+          and this is my application for the <br>
+          Applications Data Analyst Position
+        </p>
+      </div> <!-- end home-content__main -->
+
+    </div> <!-- end home-content -->
+
+    <ul class="home-sidelinks">
+      <li><a class="smoothscroll" href="#about">About Me<span>who I am</span></a></li>
+      <li><a class="smoothscroll" href="#services">My Application<span>why you should consider me</span></a></li>
+      <li><a class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
+    </ul> <!-- end home-sidelinks -->
+
+    <ul class="home-social">
+      <li>
+        <a href="https://github.com/ntkawasaki">
+          <i class="fab fa-github"></i>
+          <span class="home-social-text">Github</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/noahkawasaki/">
+          <i class="fab fa-linkedin"></i>
+          <span class="home-social-text">LinkedIn</span>
+        </a>
+      </li>
+    </ul> <!-- end home-social -->
+
+    <a href="#about" class="home-scroll smoothscroll">
+      <span class="home-scroll__text">Scroll Down</span>
+      <span class="home-scroll__icon"></span>
+    </a> <!-- end home-scroll -->
+
+  </section> <!-- end s-home -->
+
+
+  <!-- about
+    ================================================== -->
+  <section id='about' class="s-about">
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">Who I Am</h3>
+        <h1 class="display-2">UCLA Alumni, Looker, Outdoor Sports Enthusiast</h1>
+      </div>
+    </div> <!-- end section-header -->
+
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p class="lead">
+          I recently graduated from UCLA with a degree in Economics, and have returned to Looker after a four month
+          summer internship last year. Currently I am in my fifteenth week full-time at Looker in the Department of
+          Customer
+          Love.
+        </p>
+        <p class="lead">
+          Outside of work, I try to expand my technical knowledge by taking online classes in Looker
+          related
+          subjects (Data Science, Web Development, AWS), and enjoy partaking in outdoor sports. I am most passionate
+          about Wingsuit Skydiving, but also workout at Paradigm Sport, surf at 38th, and have recently started
+          mountain
+          biking.</p>
+      </div>
+    </div> <!-- end about-desc -->
+
+    <div class="row">
+
+      <div class="about-process process block-1-2 block-tab-full">
+
+        <div class="process__vline-left"></div>
+        <div class="process__vline-right"></div>
+
+      </div> <!-- end process -->
+
+    </div> <!-- end about-stats -->
+
+  </section> <!-- end s-about -->
+
+
+  <!-- services
+    ================================================== -->
+  <section id='services' class="s-services light-gray">
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">Why You Should Consider Me</h3>
+        <h1 class="display-2">Driven, Quick Learner, Creative Problem Solver</h1>
+      </div>
+    </div> <!-- end section-header -->
+
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p class="lead">
+          I believe that my strengths and personal interests in Looker align perfectly with ideal qualities for the
+          Applcations Team Data Analyst position.
+        </p>
+
+        <p>Some other shit down here</p>
+      </div>
+    </div> <!-- end about-desc -->
+
+  </section> <!-- end s-services -->
+
+
+  <!-- works
+    ================================================== -->
+  <section id='works' class="s-works">
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">Projects</h3>
+        <h1 class="display-2">Here are some projects I have been involved over my time at Looker</h1>
+      </div>
+    </div> <!-- end section-header -->
+
+  </section> <!-- end s-works -->
+
+  <!-- contact
+    ================================================== -->
+  <section id="contact" class="s-contact">
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead subhead--light">Contact Me</h3>
+        <h1 class="display-2 display-1--light">Get in touch and let's make something great together. Let's turn your
+          idea on an even greater product.</h1>
+      </div>
+    </div> <!-- end section-header -->
+
+    <div class="row">
+
+      <div class="col-full contact-main" data-aos="fade-up">
+        <p class="contact-email">noah@looker.com</p>
+        <br />
+        <p class="contact-email">@noah.kawasaki</p>
+      </div> <!-- end contact-main -->
+
+    </div> <!-- end row -->
+
+    <div class="row">
+      <div class="col-full cl-copyright">
+        <span>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;<script>
+            document.write(new Date().getFullYear());
+          </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by
+          <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+      </div>
+    </div>
+
+    <div class="cl-go-top">
+      <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+    </div>
+
+  </section> <!-- end s-contact -->
+
+
+  <!-- photoswipe background
+    ================================================== -->
+  <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+          <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs"
+            title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button
+          class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div> <!-- end photoSwipe background -->
+
+
+  <!-- preloader
+    ================================================== -->
+  <div id="preloader">
+    <div id="loader">
+    </div>
+  </div>
+
+
+  <!-- Java Script
+    ================================================== -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
