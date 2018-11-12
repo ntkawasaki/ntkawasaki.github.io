@@ -2504,8 +2504,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
   .s-about {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   .process__vline-left {
@@ -2647,8 +2647,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
   .s-services {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   .services-list [class*="col-"]:nth-child(2n + 1) {
@@ -2933,7 +2933,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1200px) {
   .s-works {
-    padding: 15rem 0 22.2rem;
+    padding: 10rem 0 10rem;
   }
 }
 
@@ -3262,8 +3262,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-  padding-top: 21rem;
-  padding-bottom: 10.2rem;
+  padding-top: 18rem;
+  padding-bottom: 18rem;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.3);
   position: relative;
@@ -3535,7 +3535,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1200px) {
   .s-contact {
-    padding-top: 15rem;
+    padding-top: 10rem;
   }
 
   .contact-main {
