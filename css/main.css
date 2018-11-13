@@ -127,6 +127,11 @@ h6,
   text-rendering: optimizeLegibility;
 }
 
+/* Need one part to be white */
+.need-white {
+  color: white;
+}
+
 h1,
 .h1,
 h2,
@@ -229,10 +234,26 @@ p img {
 
 p.lead {
   font-family: "metropolis-regular", sans-serif;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1.75;
   margin-bottom: 3.6rem;
   color: rgba(85, 85, 85, 0.95);
+}
+
+p.last {
+  font-family: "metropolis-regular", sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.75;
+  margin-bottom: 3.6rem;
+  color: rgba(194, 193, 193, 0.95);
+}
+
+li.skills {
+  font-family: "metropolis-regular", sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.75;
+  margin-bottom: 3.6rem;
+  color: rgba(194, 193, 193, 0.95);
 }
 
 @media only screen and (max-width: 1200px) {
